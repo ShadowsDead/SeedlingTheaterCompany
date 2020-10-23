@@ -49,10 +49,12 @@
 
     .text_white {
         color: #ffffff;
+        text-align: center;
 }
 
     .text_white {
         color: #000000;
+        text-align: center;
 }
 
     .text_standard {
