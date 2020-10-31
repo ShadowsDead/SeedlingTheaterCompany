@@ -52,7 +52,7 @@
         text-align: center;
 }
 
-    .text_white {
+    .text_black {
         color: #000000;
         text-align: center;
 }
@@ -69,6 +69,11 @@
         font-weight: normal;
         font-style: normal;
         text-align: center;
+}
+
+    .gradient-buttons .btn {
+        background-image: linear-gradient(to bottom, rgba(0,255,127), rgba(0,125,0,0.5) 50%, rgba(0,0,0,0.15) 100%, rgba(0,0,0,0.05));
+        background-repeat: repeat-x;
 }
 
 /*--- Bootstrap Padding Fix --*/
