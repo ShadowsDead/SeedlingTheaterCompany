@@ -76,7 +76,117 @@
         background-repeat: repeat-x;
 }
 
-/*--- Bootstrap Padding Fix --*/
+/*-- Bootstrap Padding Fix --*/
     [class*="col-"] {
         padding: 1rem;
+}
+
+
+/*--Calender Stuff--*/
+
+    .container {
+        margin-top: 150px;
+}
+
+    ul {
+        list-style-type: none;
+}
+
+    a {
+        color:#b63b4d;
+        text-decoration: none;
+}
+
+    .accordion {
+        max-width: 384px;
+        width: 100%;
+        margin: 30px auto 20px;
+        background: #efeded;
+        border-radius: 0;
+}
+
+    .accordion .link {
+        cursor: pointer;
+        display: block;
+        padding: 15px 15px 15px 42px;
+        color: #4d4d4d;
+        font-size: 14px;
+        font-weight: 700;
+        border-bottom: 1px solid #ccc;
+        position: relative;
+        transition: all 0.4 ease;
+}
+
+    .accordion li:last-chil .link {
+        border-bottom: 0;
+}
+
+    .accordion li i {
+        position: absolute;
+        top: 16px;
+        left: 12px;
+        font-size: 18px;
+        color: #595959;
+        transition: all 0.4 ease;
+}
+
+    .accordion li i.fa-chevron-down {
+        right: 12px;
+        left: auto;
+        font-size: 16px;
+}
+
+    .accordion li.open .link {
+        color: #aa00ff;
+}
+
+    .accordion li.open i {
+        color: #aa00ff;
+}
+
+    .accordion li.open i.fa-chevron-down {
+        transition: rotate (180deg);
+}
+
+    .submenu {
+        display: none;
+        background: #444359;
+        font-size: 14px;
+}
+
+    .submenu a {
+        display: block;
+        text-decoration: none;
+        color: #d9d9d9;
+        padding: 12px;
+        padding-left: 42px;
+        transition: all 0.25s ease;
+}
+
+    .submenu a:hover {
+        background: #b63b4d;
+        color: #fff;
+}
+
+    h2 {
+        animation-duration: 8s;
+        animation-name: slidein;
+        animation-iteration-count: infinite;
+        box-shadow: 0 0 10px 0 rgba (0, 0, 0, .4) inset;
+        background: linlear gradient (to bottom, #fff 30%, #fcfcfc 40%, #f8f8f8 50%, #f0f0f0 100%);
+        border-radius: 7px;
+}
+
+    @keyframes slidein {
+        0% {
+            margin-left: 0%;
+    }
+
+        50% {
+            margin-left: 150px;
+    }
+
+        100% {
+            margin-left: 0%;
+    }
 }
