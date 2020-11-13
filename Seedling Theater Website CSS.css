@@ -40,6 +40,13 @@
         text-align: center;
 }
 
+    h5 {
+        font-family: 'Sansita Swashed', cursive;
+        font-weight: normal;
+        font-style: normal;
+        text-align: center;
+}
+
     p {
         font-family: 'PT Sans Narrow', sans-serif;
         font-weight: normal;
