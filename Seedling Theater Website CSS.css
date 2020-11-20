@@ -175,7 +175,7 @@
         color: #fff;
 }
 
-    h2 {
+    .animated {
         animation-duration: 8s;
         animation-name: slidein;
         animation-iteration-count: infinite;
@@ -197,3 +197,15 @@
             margin-left: 0%;
     }
 }
+
+/*    .def-number-input {
+        display: inline-flex;
+        width: 80px;
+        height: 30px;
+        background-color: #9f9f9f;
+        &, & * {
+            box-sizing: border-box;
+        }
+
+    }
+/*
