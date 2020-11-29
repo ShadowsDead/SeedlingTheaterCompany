@@ -184,6 +184,10 @@
         border-radius: 7px;
 }
 
+    .headerimage {
+        scale: 5%;
+    }
+
     @keyframes slidein {
         0% {
             margin-left: 0%;
